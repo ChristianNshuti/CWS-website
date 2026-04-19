@@ -1,4 +1,4 @@
-import farmersImg from "@/assets/farmers.jpg";
+import farmersImg from "../../assets/WhatsApp Image 2026-04-16 at 10.32.41.jpeg";
 
 const AboutSection = () => (
   <section id="about" className="py-24 bg-background">

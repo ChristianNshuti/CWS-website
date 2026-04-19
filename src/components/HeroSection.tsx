@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero-coffee.jpg";
+import heroImg from "../../assets/WhatsApp Image 2026-04-16 at 10.36.55.jpeg"
 
 const HeroSection = () => (
   <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
