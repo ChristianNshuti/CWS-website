@@ -1,17 +1,17 @@
-import cherriesImg from "@/assets/coffee-cherries.jpg";
-import washingImg from "@/assets/washing-process.jpg";
-import dryingImg from "@/assets/drying-beds.jpg";
-import farmersImg from "@/assets/farmers.jpg";
-import landscapeImg from "@/assets/landscape.jpg";
-import heroImg from "@/assets/hero-coffee.jpg";
+import img1 from "../../assets/WhatsApp Image 2026-04-16 at 10.32.03.jpeg";
+import img2 from "../../assets/WhatsApp Image 2026-04-16 at 10.36.55.jpeg";
+import img3 from "../../assets/WhatsApp Image 2026-04-16 at 10.48.23.jpeg";
+import img4 from "../../assets/WhatsApp Image 2026-04-16 at 10.32.41.jpeg";
+import img5 from "../../assets/img5.png";
+import img6 from "../../assets/img6.png";
 
 const images = [
-  { src: cherriesImg, alt: "Ripe coffee cherries on the branch", span: "col-span-1 row-span-1" },
-  { src: heroImg, alt: "Bwisige washing station operations", span: "col-span-2 row-span-1" },
-  { src: dryingImg, alt: "Coffee drying on raised African beds", span: "col-span-1 row-span-1" },
-  { src: farmersImg, alt: "Local farmers sorting cherries", span: "col-span-1 row-span-1" },
-  { src: landscapeImg, alt: "Gicumbi District highlands", span: "col-span-1 row-span-1" },
-  { src: washingImg, alt: "Coffee washing and pulping process", span: "col-span-1 row-span-1" },
+  { src: img1, alt: "Ripe coffee cherries on the branch", span: "col-span-1 row-span-1" },
+  { src: img2, alt: "Bwisige washing station operations", span: "col-span-2 row-span-1" },
+  { src: img3, alt: "Coffee drying on raised African beds", span: "col-span-1 row-span-1" },
+  { src: img4, alt: "Local farmers sorting cherries", span: "col-span-1 row-span-1" },
+  { src: img5, alt: "Gicumbi District highlands", span: "col-span-1 row-span-1" },
+  { src: img6, alt: "Coffee washing and pulping process", span: "col-span-1 row-span-1" },
 ];
 
 const GallerySection = () => (

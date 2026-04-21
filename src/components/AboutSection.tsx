@@ -1,4 +1,4 @@
-import farmersImg from "../../assets/WhatsApp Image 2026-04-16 at 10.32.41.jpeg";
+import CherriesImg from "@/assets/coffee-cherries.jpg";
 
 const AboutSection = () => (
   <section id="about" className="py-24 bg-background">
@@ -23,7 +23,7 @@ const AboutSection = () => (
         </div>
         <div className="relative">
           <img
-            src={farmersImg}
+            src={CherriesImg}
             alt="Farmers sorting coffee cherries at Bwisige washing station"
             className="rounded-lg shadow-xl w-full object-cover aspect-[4/3]"
             loading="lazy"

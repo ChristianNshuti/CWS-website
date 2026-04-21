@@ -1,15 +1,19 @@
-import cherriesImg from "@/assets/coffee-cherries.jpg";
-import washingImg from "@/assets/washing-process.jpg";
-import dryingImg from "@/assets/drying-beds.jpg";
+import cherriesImg from "../../assets/2nd.png";
+import dryingImg from "../../assets/drying.png";
+import sortingImg from "../../assets/1st.png";
+import pulpingImg from "../../assets/pulping.png";
+import fermentationImg from "../../assets/fermentation.png";
+import washingImg from "../../assets/washing.png";
+import storageImg from "../../assets/storage.png";
 
 const steps = [
   { num: "01", title: "Cherry Collection", desc: "Ripe, hand-picked cherries are delivered by local farmers to our washing station during peak harvest. We accept only the highest-quality, fully mature red cherries.", img: cherriesImg },
-  { num: "02", title: "Sorting & Floating", desc: "Cherries are sorted by hand to remove any defects, then floated in water to separate under-ripe and damaged fruit, ensuring only the densest cherries continue.", img: null },
-  { num: "03", title: "Pulping", desc: "Selected cherries are mechanically pulped to remove the outer skin and fruit, exposing the parchment-covered bean inside. This step is done within hours of harvest.", img: washingImg },
-  { num: "04", title: "Fermentation", desc: "Pulped beans are placed in fermentation tanks for 12–36 hours. This controlled process breaks down the remaining mucilage and develops the coffee's clean, complex flavor profile.", img: null },
-  { num: "05", title: "Washing", desc: "After fermentation, beans are thoroughly washed in clean water channels to remove all residual mucilage, resulting in the bright, clean cup character that defines Rwandan washed coffees.", img: null },
+  { num: "02", title: "Sorting & Floating", desc: "Cherries are sorted by hand to remove any defects, then floated in water to separate under-ripe and damaged fruit, ensuring only the densest cherries continue.", img: sortingImg },
+  { num: "03", title: "Pulping", desc: "Selected cherries are mechanically pulped to remove the outer skin and fruit, exposing the parchment-covered bean inside. This step is done within hours of harvest.", img: pulpingImg },
+  { num: "04", title: "Fermentation", desc: "Pulped beans are placed in fermentation tanks for 12–36 hours. This controlled process breaks down the remaining mucilage and develops the coffee's clean, complex flavor profile.", img: fermentationImg },
+  { num: "05", title: "Washing", desc: "After fermentation, beans are thoroughly washed in clean water channels to remove all residual mucilage, resulting in the bright, clean cup character that defines Rwandan washed coffees.", img: washingImg },
   { num: "06", title: "Drying on Raised Beds", desc: "Washed parchment coffee is carefully spread on raised African drying beds and turned regularly over 10–15 days until optimal moisture content is achieved.", img: dryingImg },
-  { num: "07", title: "Storage & Export Prep", desc: "Dried parchment is rested in climate-controlled storage, then dry-milled, graded, and packed in GrainPro-lined bags, ready for export to discerning buyers worldwide.", img: null },
+  { num: "07", title: "Storage & Export Prep", desc: "Dried parchment is rested in climate-controlled storage, then dry-milled, graded, and packed in GrainPro-lined bags, ready for export to discerning buyers worldwide.", img: storageImg },
 ];
 
 const ProcessSection = () => (
