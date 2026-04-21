@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "bunx vite build",
+    "build": "vite build",
+    "build:bun": "bun run vite build",
     "build:dev": "npx vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
