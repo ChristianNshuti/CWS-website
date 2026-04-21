@@ -5,13 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "bunx vite build",
     "build:dev": "npx vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "postinstall": "npm install --include=dev"
+    "postinstall": "bun install"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
