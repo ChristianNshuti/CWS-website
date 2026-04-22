@@ -3,7 +3,7 @@ import landscapeImg from "@/assets/landscape.jpg";
 const stats = [
   { value: "500+", label: "Partner Farmers" },
   { value: "100%", label: "Cherry Traceability" },
-  { value: "15+", label: "Years of Operation" },
+  { value: "6+", label: "Years of Operation" },
   { value: "Top 5%", label: "Specialty Grade" },
 ];
 
