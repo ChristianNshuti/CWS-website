@@ -3,7 +3,8 @@ const Footer = () => (
     <div className="container mx-auto px-4">
       <div className="flex flex-col md:flex-row justify-between items-center gap-6">
         <div>
-          <span className="font-serif text-lg font-bold text-cream">
+          <span className="font-serif text-lg font-bold text-cream flex items-center gap-2">
+            <img src="/tm_logo.svg" alt="TM" className="w-15 h-12 opacity-90" />
             Bwisige <span className="text-earth-green-light">Coffee</span>
           </span>
           <p className="text-sm mt-1">Premium washed coffee from Gicumbi, Rwanda</p>
