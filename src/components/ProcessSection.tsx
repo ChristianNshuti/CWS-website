@@ -5,6 +5,7 @@ import pulpingImg from "../../assets/pulping.png";
 import fermentationImg from "../../assets/fermentation.png";
 import washingImg from "../../assets/washing.png";
 import storageImg from "../../assets/storage.png";
+import OptimizedImage from "./OptimizedImage";
 
 const steps = [
   { num: "01", title: "Cherry Collection", desc: "Ripe, hand-picked cherries are delivered by local farmers to our washing station during peak harvest. We accept only the highest-quality, fully mature red cherries.", img: cherriesImg },
@@ -48,8 +49,9 @@ const ProcessSection = () => (
                   alt={step.title}
                   className="rounded-lg shadow-lg w-full object-cover aspect-[3/2]"
                   loading="lazy"
-                  width={800}
-                  height={533}
+                  width={600}
+                  height={400}
+                  style={{ imageRendering: 'auto' }}
                 />
               ) : (
                 <div className="w-full aspect-[3/2] rounded-lg bg-primary/5 flex items-center justify-center">
