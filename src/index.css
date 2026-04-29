@@ -100,4 +100,38 @@
   .text-balance {
     text-wrap: balance;
   }
+  
+  /* Fix for frame-by-frame image loading - Vercel specific */
+  img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: auto;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    will-change: transform;
+    contain: layout style paint;
+  }
+  
+  /* Prevent layout shift during image loading */
+  img {
+    aspect-ratio: attr(width) / attr(height);
+  }
+  
+  /* Additional Vercel optimization */
+  @media (prefers-reduced-motion: no-preference) {
+    img {
+      transition: opacity 0.3s ease;
+    }
+  }
+  
+  /* Fix for Vercel image loading */
+  picture img,
+  img[src] {
+    opacity: 1;
+    animation: none !important;
+  }
 }
