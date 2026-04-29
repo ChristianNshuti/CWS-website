@@ -8,9 +8,18 @@ const HeroSection = () => (
       className="absolute inset-0 w-full h-full object-cover"
       width={1920}
       height={1080}
+      loading="eager"
+      style={{ 
+        imageRendering: 'auto',
+        opacity: 1,
+        animation: 'none'
+      }}
+      onLoad={(e) => {
+        e.currentTarget.style.opacity = '1';
+      }}
     />
     <div className="absolute inset-0 bg-coffee-dark/60" />
-    <div className="relative z-10 text-center max-w-4xl mx-auto px-4 animate-fade-in-up">
+    <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
       <p className="text-sm md:text-base uppercase tracking-[0.3em] text-warm-beige mb-4 font-sans font-medium">
         Bwisige, Gicumbi District — Rwanda
       </p>
