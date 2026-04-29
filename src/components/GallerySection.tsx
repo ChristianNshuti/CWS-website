@@ -32,10 +32,11 @@ const GallerySection = () => (
             <img
               src={img.src}
               alt={img.alt}
-              className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
+              className="w-full h-64 object-cover"
               loading="lazy"
               width={800}
               height={600}
+              style={{ imageRendering: 'auto' }}
             />
           </div>
         ))}
